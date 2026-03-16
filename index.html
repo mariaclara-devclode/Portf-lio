@@ -1,185 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portf-lio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
 
-body{
-font-family: Arial, sans-serif;
-background-color: #f4f4f4;
-margin:0;
-padding:0;
-text-align:center;
-}
+      header {
+        background-color: #222;
+        color: white;
+        padding: 30px;
+      }
 
+      .foto-perfil {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+        object-fit: cover;
+      }
 
-header{
-background-color:#222;
-color:white;
-padding:30px;
-}
+      main {
+        background-color: #ffffff;
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
 
-.foto-perfil{
-width:200px;
-height:200px;
-border-radius:50%;
-display:block;
-margin:20px auto;
-object-fit:cover;
-}
+      section {
+        background-color: #f4f4f4;
+        margin: 20px;
+        padding: 30px;
+        border-radius: 10px;
+        max-width: 300px;
+      }
 
+      ul {
+        text-align: left;
+        display: inline-block;
+      }
 
-section{
-background:white;
-margin:30px;
-padding:20px;
-border-radius:10px;
-}
+      a {
+        color: #888;
+        text-decoration: none;
+        font-weight: bold;
+      }
 
-
-ul{
-text-align:left;
-display:inline-block;
-}
-
-
-a{
-color:rgb(71, 73, 75);
-text-decoration:none;
-font-weight:bold;
-}
-
-a:hover{
-text-decoration:underline;
-}
-
-footer{
-margin:30px;
-color:gray;
-}
-
-</style>
-</head>
-
-<body>
-
-<header>
-
-<h1>Maria Clara de Oliveira Maia</h1>
-
-<p>Estudante de Desenvolvimento de Sistemas</p>
-
-</header>
-
-
-
-<img src="img/Minha imagem.jpeg.jpeg" alt="Foto de Maria Clara" class="foto-perfil">
-
-
-
-<section>
-
-<h2>Sobre Mim</h2>
-
-<p>
-
-     Meu nome é Maria Clara de Oliveira Maia e estou iniciando minha jornada no
-     mundo da tecnologia. Atualmente sou estudante de Desenvolvimento de Sistemas,
-     onde venho aprendendo conceitos importantes de programação, lógica e
-     desenvolvimento web.
-
-<p>
-
-    Tenho interesse em criar sites, aplicações e soluções digitais que possam
-    facilitar o dia a dia das pessoas. Durante meus estudos estou desenvolvendo
-    habilidades em HTML, CSS, lógica de programação e também aprendendo a utilizar
-    ferramentas importantes como oGitHub para organização e compartilhamento
-    de projetos.
-</p>
-
-     Sou uma pessoa dedicada, curiosa e sempre disposta a aprender coisas novas.
-     Acredito que a tecnologia é uma ferramenta poderosa para inovação e também
-     para inclusão social, e por isso tenho interesse em participar de projetos que
-     possam gerar impacto positivo na vida das pessoas.
-</p>
-<p>
-     Meu objetivo é continuar evoluindo na área de tecnologia, adquirindo novos
-     conhecimentos e experiências que contribuam para meu crescimento profissional
-     como desenvolvedora.
-</p>
-
-</section>
-
-
-<section>
-
-<h2>Habilidades que pretendo adquirir ao longo do curso</h2>
-
-<ul>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>PYTHON</li>
-
-<li>Lógica de Programação</li>
-
-<li>GitHub</li>
-
-</ul>
-
-</section>
-
-
-<section>
-
-<h2>Contato</h2>
-
-<p>
-
-GitHub:
-
-<a href="https://github.com/mariaclara-devclode/" target="_blank">
-
-Meu GitHub
-
-</a>
-
-</p>
-
-<p>
-
-Email:
-
-<a href="mailto:mc.2004mk@gmail.com">
-
-Enviar Email
-
-</a>
-
-</p>
-
-</section>
-
-<footer>
-
-<p></p>
-
-</footer>
-
-</body>
-
-</html>
+      footer {
+        margin: 30px;
+        color: gray;
+      }
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
+    <header>
+      <h1>Maria Clara de Oliveira Maia</h1>
+      <p>Estudante de Desenvolvimento de Sistemas</p>
+    </header>
+
+    <img
+      src="img/Minha imagem.jpeg.jpeg"
+      alt="Foto de Maria Clara"
+      class="foto-perfil"
+    />
+
+    <main>
+      <section>
+        <h2>Sobre Mim</h2>
+
+        <p>
+          Meu nome é Maria Clara de Oliveira Maia e estou iniciando minha
+          jornada no mundo da tecnologia. Atualmente sou estudante de
+          Desenvolvimento de Sistemas, onde venho aprendendo conceitos
+          importantes de programação, lógica e desenvolvimento web.
+        </p>
+
+        <p>
+          Tenho interesse em criar sites, aplicações e soluções digitais que
+          possam facilitar o dia a dia das pessoas. Durante meus estudos estou
+          desenvolvendo habilidades em HTML, CSS, lógica de programação e também
+          aprendendo a utilizar ferramentas importantes como o GitHub para
+          organização e compartilhamento de projetos.
+        </p>
+
+        <p>
+          Sou uma pessoa dedicada, curiosa e sempre disposta a aprender coisas
+          novas. Acredito que a tecnologia é uma ferramenta poderosa para
+          inovação e também para inclusão social.
+        </p>
+
+        <p>
+          Meu objetivo é continuar evoluindo na área de tecnologia, adquirindo
+          novos conhecimentos e experiências.
+        </p>
+      </section>
+
+      <section>
+        <h2>Habilidades que pretendo adquirir ao longo do curso</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>Lógica de Programação</li>
+          <li>GitHub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contato</h2>
+
+        <p>
+          GitHub:
+          <a href="https://github.com/mariaclara-devclode/" target="_blank">
+            Meu GitHub
+          </a>
+        </p>
+
+        <p>
+          Email:
+          <a href="mailto:mc.2004mk@gmail.com"> Enviar Email </a>
+        </p>
+      </section>
+    </main>
 
     <footer>
-
+      <p>2026 Maria Clara &copy;</p>
     </footer>
-    
-</body>
+  </body>
 </html>
